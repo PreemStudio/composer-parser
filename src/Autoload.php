@@ -4,8 +4,11 @@ declare(strict_types=1);
 
 namespace PreemStudio\ComposerParser;
 
+use PreemStudio\ComposerParser\Mappers\KebabCaseMapper;
+use Spatie\LaravelData\Attributes\MapInputName;
 use Spatie\LaravelData\Data;
 
+#[MapInputName(KebabCaseMapper::class)]
 final class Autoload extends Data
 {
     /** @see https://getcomposer.org/doc/04-schema.md#psr-4 */

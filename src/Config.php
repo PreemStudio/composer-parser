@@ -4,9 +4,12 @@ declare(strict_types=1);
 
 namespace PreemStudio\ComposerParser;
 
+use PreemStudio\ComposerParser\Mappers\KebabCaseMapper;
+use Spatie\LaravelData\Attributes\MapInputName;
 use Spatie\LaravelData\Data;
 
 /** @see https://getcomposer.org/doc/06-config.md */
+#[MapInputName(KebabCaseMapper::class)]
 final class Config extends Data
 {
     /** @see https://getcomposer.org/doc/06-config.md#allow-plugins */
