@@ -15,6 +15,6 @@ final class KebabCaseMapper implements NameMapper
             return $name;
         }
 
-        return Str::kebab($name);
+        return str_replace('_', '-', Str::kebab($name));
     }
 }
