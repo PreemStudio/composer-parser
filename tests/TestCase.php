@@ -7,6 +7,9 @@ namespace Tests;
 use PreemStudio\Jetpack\Tests\AbstractTestCase;
 use Spatie\LaravelData\LaravelDataServiceProvider;
 
+/**
+ * @internal
+ */
 abstract class TestCase extends AbstractTestCase
 {
     protected function getPackageProviders($app): array

@@ -6,13 +6,18 @@ namespace Tests;
 
 use PreemStudio\Jetpack\Tests\AbstractAnalysisTestCase;
 
+/**
+ * @internal
+ *
+ * @coversNothing
+ */
 final class AnalysisTest extends AbstractAnalysisTestCase
 {
     public static function getPaths(): array
     {
         return [
-            realpath(__DIR__.'/../src'),
-            realpath(__DIR__),
+            \realpath(__DIR__.'/../src'),
+            \realpath(__DIR__),
         ];
     }
 }

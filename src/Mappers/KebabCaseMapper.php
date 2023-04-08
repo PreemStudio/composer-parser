@@ -11,10 +11,10 @@ final class KebabCaseMapper implements NameMapper
 {
     public function map(int|string $name): string|int
     {
-        if (! is_string($name)) {
+        if (!\is_string($name)) {
             return $name;
         }
 
-        return str_replace('_', '-', Str::kebab($name));
+        return \str_replace('_', '-', Str::kebab($name));
     }
 }

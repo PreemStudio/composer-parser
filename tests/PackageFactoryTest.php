@@ -7,21 +7,21 @@ namespace Tests;
 use PreemStudio\ComposerParser\Package;
 use PreemStudio\ComposerParser\PackageFactory;
 
-it('should create an instance from a path', function () {
+it('should create an instance from a path', function (): void {
     $package = PackageFactory::fromPath('vendor/spatie/laravel-data');
 
     expect($package)->toBeInstanceOf(Package::class);
     expect($package->name)->toBe('spatie/laravel-data');
 });
 
-it('should create an instance from a root', function () {
+it('should create an instance from a root', function (): void {
     $package = PackageFactory::fromRoot();
 
     expect($package)->toBeInstanceOf(Package::class);
     expect($package->name)->toBe('preemstudio/composer-parser');
 });
 
-it('should create an instance from a name', function () {
+it('should create an instance from a name', function (): void {
     $package = PackageFactory::fromName('spatie/laravel-data');
 
     expect($package)->toBeInstanceOf(Package::class);
