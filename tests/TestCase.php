@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Tests;
 
-use BombenProdukt\PackagePowerPack\Tests\AbstractTestCase;
+use BombenProdukt\PackagePowerPack\TestBench\AbstractTestCase;
 use Spatie\LaravelData\LaravelDataServiceProvider;
 
 /**

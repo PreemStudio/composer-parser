@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Tests;
 
-use BombenProdukt\PackagePowerPack\Tests\AbstractAnalysisTestCase;
+use BombenProdukt\PackagePowerPack\TestBench\AbstractAnalysisTestCase;
 
 /**
  * @internal
@@ -13,11 +13,5 @@ use BombenProdukt\PackagePowerPack\Tests\AbstractAnalysisTestCase;
  */
 final class AnalysisTest extends AbstractAnalysisTestCase
 {
-    public static function getPaths(): array
-    {
-        return [
-            \realpath(__DIR__.'/../src'),
-            \realpath(__DIR__),
-        ];
-    }
+    //
 }
