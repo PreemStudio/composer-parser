@@ -16,7 +16,7 @@ final class AnalysisTest extends AbstractAnalysisTestCase
     public static function getPaths(): array
     {
         return [
-            \realpath(__DIR__ . '/../src'),
+            \realpath(__DIR__.'/../src'),
             \realpath(__DIR__),
         ];
     }
