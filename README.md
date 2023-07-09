@@ -4,20 +4,6 @@
     </a>
 </p>
 
-<p align="center">
-    <a href="https://github.com/faustbrian/composer-parser/actions">
-        <img src="https://badge.sh/github/check-runs/BombenProdukt/composer-parser" alt="Checks" />
-    </a>
-    <a href="https://packagist.org/packages/bombenprodukt/composer-parser">
-        <img src="https://badge.sh/packagist/downloads/BombenProdukt/composer-parser" alt="Downloads" />
-    </a>
-    <a href="https://packagist.org/packages/bombenprodukt/composer-parser">
-        <img src="https://badge.sh/packagist/version/BombenProdukt/composer-parser" alt="Version" />
-    </a>
-    <a href="https://packagist.org/packages/bombenprodukt/composer-parser">
-        <img src="https://badge.sh/packagist/license/BombenProdukt/composer-parser" alt="License" />
-    </a>
-</p>
 
 ## About Composer Parser
 
